@@ -1,9 +1,11 @@
 .home-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: 0 auto;
-    
+    margin: auto;
+    padding-top: 50px;
 }
 
 .home-banner{
@@ -30,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     width: 75%;
 }
 
@@ -42,8 +44,11 @@
     margin: auto;
 }
 
-form .mb-4 input{
-  flex: 1;
+.base-input {
+    min-width: 500px;
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 22px;  
 }
 
 .button-container button {
